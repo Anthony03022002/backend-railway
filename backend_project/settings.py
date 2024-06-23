@@ -139,7 +139,7 @@ ALLOWED_HOSTS = ['127.0.0.1','localhost','web-production-71b9.up.railway.app']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://web-production-71b9.up.railway.app"
+    "https://frontend-luask2nfa-anthonys-projects-a829b808.vercel.app/"
 ]
 
 
