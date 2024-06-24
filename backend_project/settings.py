@@ -137,11 +137,7 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 ALLOWED_HOSTS = ['127.0.0.1','localhost','web-production-71b9.up.railway.app']
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "https://frontend-luask2nfa-anthonys-projects-a829b808.vercel.app/",
-    "https://frontend-sandy-seven-64.vercel.app/"
-]
+CORS_ALLOWED_ORIGINS = True
 
 
 CSRF_TRUSTED_ORIGINS = ['http://*','https://web-production-71b9.up.railway.app']
